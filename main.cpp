@@ -84,7 +84,7 @@ int main ()
     cout << "Number:" <<  count << endl;
     ofstream outfile;// declaration of file pointer named outfile
     outfile.open("output.dat", ios::out); // opens file named "filename" for output
-    for ( int j = 0; j < 10; j++ ) //loop numbers
+    for ( int j = 0; j < 5; j++ ) //loop numbers
     {
         int output=0;
         for ( int i = 0; i < 10; i++ ) // loop intervals
